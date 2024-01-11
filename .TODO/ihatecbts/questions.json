@@ -1,0 +1,43 @@
+{
+    "cbt_id" : "sha256(tolower(cbt_name))",
+    "version" : "1",
+    "detection" : { 
+        "domain" : "https://example.tld",
+        "hooks" : {
+            "question" : "label",
+            "answer" : "class"
+        }
+    },
+    "questions" : [{
+        "question" : "long form string",
+        "type" : "radio", 
+        "options" : [
+            {"option value" : 0},
+            {"option value" : 1} 
+        ]
+    },
+    {
+        "question" : "long form string",
+        "type" : "checkbox", 
+        "options" : [
+            {"option value" : 0},
+            {"option value" : 1} 
+        ]
+    },
+    {
+        "question" : "long form string",
+        "type" : "button", 
+        "options" : [
+            {"option value" : 0},
+            {"option value" : 1} 
+        ]
+    },
+    {
+        "question" : "long form string",
+        "type" : "match", 
+        "options" : [
+            {"option value" : 0},
+            {"option value" : 1} 
+        ]
+    }]
+    }
